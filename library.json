@@ -1,0 +1,10 @@
+{
+  "id": "my-library-slug",
+  "name": "My Abstract Library",
+  "author": "Your Name",
+  "description": "A professional library for Abstract Folder.",
+  "version": "1.0.0",
+  "category": "General",
+  "repository": "https://github.com/your-username/abstract-library-template",
+  "minAbstractVersion": "2.0.0"
+}
