@@ -1,4 +1,4 @@
-# My Abstract Library 📚
+# My Abstract Library
 A professional, boilerplate structure for sharing knowledge libraries via the Abstract Folder Obsidian plugin.
 
 [![GitHub Sponsor](https://img.shields.io/badge/sponsor-me-orange.svg?style=flat-square&logo=github-sponsors)](https://github.com/sponsors/your-username)
@@ -14,10 +14,12 @@ This vault is structured to leverage the "Abstract Folder" plugin's virtual hier
 To install this library into your Obsidian vault:
 
 1. Open **Obsidian Settings**.
-2. Navigate to **Abstract Folder** > **Catalog**.
-3. Click **Add Library** and paste the URL of this repository:
+2. Navigate to **Abstract Folder** > **Library Catalog**.
+3. Click **View Catalog** and then navigate to **Manage Catalogs**.
+4. Under **Manage Standalone Library**, paste the URL of this repository:
    `https://github.com/your-username/abstract-library-template`
-4. This library will now appear in your **Abstract View**.
+   and click add.
+5. This library will now appear in your **Abstract View**.
 
 ---
 *Created with the [Abstract Library Template](https://github.com/RahmaniErfan/abstract-library-template)*

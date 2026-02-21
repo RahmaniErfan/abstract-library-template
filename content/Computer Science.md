@@ -1,7 +1,7 @@
 ---
 parent: ["[[Learning Paths]]"]
 ---
-# 💻 Computer Science
+# Computer Science
 A domain-specific branch of the Learning Paths.
 
 ## Shared Knowledge

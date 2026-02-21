@@ -1,7 +1,7 @@
 ---
 abstract: true
 ---
-# 🗺️ Learning Paths
+# Learning Paths
 This is a root-level container for educational content.
 
 ## The Power of Multi-Parents

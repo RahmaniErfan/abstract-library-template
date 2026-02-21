@@ -1,7 +1,7 @@
 ---
 parent: ["[[Learning Paths]]"]
 ---
-# 🔢 Mathematics
+# Mathematics
 A domain-specific branch of the Learning Paths.
 
 ## Intersection with CS
