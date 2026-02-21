@@ -8,8 +8,7 @@ A professional, boilerplate structure for sharing knowledge libraries via the Ab
 ## Content Overview
 This vault is structured to leverage the "Abstract Folder" plugin's virtual hierarchy. By using the `parent` property in your note's frontmatter, you can organize your knowledge without being constrained by the physical file system.
 
-- **Root Note**: The top-level entry point.
-- **Child Notes**: Automatically grouped under their parent note in the Abstract View.
+
 
 ## Setup Instructions
 To install this library into your Obsidian vault:
