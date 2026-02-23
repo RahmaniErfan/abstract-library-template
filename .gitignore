@@ -4,6 +4,7 @@
 workspace.json
 *.json
 !library.json
+!manifest.json
 
 # Mobile-specific sync files
 .sync/

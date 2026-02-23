@@ -10,5 +10,10 @@
   "fundingUrl": "https://github.com/sponsors/your-username",
   "parentProperty": "parent",
   "childrenProperty": "children",
-  "forceStandardProperties": false
+  "forceStandardProperties": false,
+  "// topics": "Array of top-level folder names in this repo. These power the Engine 2 sparse-checkout UI. They MUST exactly match the physical folder names (e.g., if you have a folder called 'Neuroscience', add 'Neuroscience' here).",
+  "topics": [
+    "Getting Started",
+    "Advanced Concepts"
+  ]
 }

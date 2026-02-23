@@ -21,5 +21,9 @@ To install this library into your Obsidian vault:
    and click add.
 5. This library will now appear in your **Abstract View**.
 
+## For Curators (Engine 2)
+Do NOT use `library.json` to trigger updates. When you want to push new notes to your subscribers, you must bump the version and timestamp inside `manifest.json`.
+
+
 ---
 *Created with the [Abstract Library Template](https://github.com/RahmaniErfan/abstract-library-template)*
