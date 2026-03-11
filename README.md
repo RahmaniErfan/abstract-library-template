@@ -21,6 +21,22 @@ To install this library into your Obsidian vault:
    and click add.
 5. This library will now appear in your **Abstract View**.
 
+## Security & Content Guidelines
+To ensure a safe experience for all users, the Abstract Folder plugin implements a robust security layer. Please adhere to the following guidelines when curating your library:
+
+### 1. File Type Restrictions
+Only standard, safe file formats are synchronized. Avoid including files with unsupported extensions as they will be blocked.
+- **Allowed:** `.md`, `.txt`, `.json`, `.csv`, `.canvas`, and standard images (`.png`, `.jpg`, etc.).
+- **Blocked:** `.css` files, executable scripts, and the `.obsidian/` folder are strictly blocked for security reasons (to prevent UI spoofing and configuration overwrites).
+
+### 2. Markdown Sanitization
+The plugin automatically neutralizes executable code blocks within Markdown files to prevent malicious scripts from running in a subscriber's vault.
+- **Neutralized Blocks:** `dataviewjs`, `Templater`, and `CustomJS` blocks are renamed or wrapped to disable execution while remaining readable as text.
+- **HTML Sanitization:** `<script>` tags are stripped or wrapped in HTML comments.
+
+### 3. File Size Limit
+Individual files must be under **10MB**. Files exceeding this limit will be skipped during synchronization to prevent storage bloat.
+
 ## For Curators (Engine 2)
 Do NOT use `library.json` to trigger updates. When you want to push new notes to your subscribers, you must bump the version and timestamp inside `manifest.json`.
 
